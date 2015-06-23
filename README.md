@@ -1,5 +1,5 @@
 ### 說明
-> this tut is demonstrating npm & gulp & react.js & flux
+> This tut is demonstrating npm & gulp & react.js & flux
 
 ### 安裝 node js
 > https://nodejs.org/
