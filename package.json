@@ -1,0 +1,22 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "start a new project",
+  "main": "app.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jijimumu/base.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Jim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jijimumu/base/issues"
+  },
+  "homepage": "https://github.com/jijimumu/base"
+}
