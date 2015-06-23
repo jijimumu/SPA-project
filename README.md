@@ -7,20 +7,20 @@
 ### Update node js to latest version
 > sudo npm install npm -g
 
-### initiate npm
+### Initiate npm
 > npm init
 
-### install gulp
+### Install gulp
 > npm install -g gulp
 
-### install gulp and add dependency
+### Install gulp and add dependency
 > npm install --save-dev gulp
 —save-dev 將dependency寫入package.json
 
-### install other packages
+### Install other packages
 > npm install --save-dev browserify vinyl-source-stream gulp-minify-css gulp-notify fs gulp-uglify reactify gulp-jasmine gulp-less path
 
-### add script to package.json for starting gulp
+### Add script to package.json for starting gulp
 
 ```js
 
@@ -30,7 +30,7 @@
 
 ```
 
-### gulp file setting
+### Gulp file setting
 
 ```js
 
