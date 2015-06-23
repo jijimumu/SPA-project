@@ -1,26 +1,26 @@
-### 說明
-> This project is demonstrating npm & gulp & react.js & flux
+### Explanation
+> Start a new project
 
-### 安裝 node js
+### Install node js
 > https://nodejs.org/
 
-### 更新 node js 至最新版本
+### Update node js to latest version
 > sudo npm install npm -g
 
-### 初始化專案
+### initiate npm
 > npm init
 
-### 安裝 gulp
+### install gulp
 > npm install -g gulp
 
-### 專案加入 gulp
+### install gulp and add dependency
 > npm install --save-dev gulp
 —save-dev 將dependency寫入package.json
 
-### 安裝其他套件
+### install other packages
 > npm install --save-dev browserify vinyl-source-stream gulp-minify-css gulp-notify fs gulp-uglify reactify gulp-jasmine gulp-less path
 
-### package.json 新增 script 啟動 gulp
+### add script to package.json for starting gulp
 
 ```js
 
@@ -30,7 +30,7 @@
 
 ```
 
-### gulp file 設定
+### gulp file setting
 
 ```js
 
@@ -152,7 +152,7 @@ gulp.task('minify-css', function() {
             {
                 noAdvanced: false,
                 keepBreaks:true,
-                cache: true 
+                cache: true
             }))
         .pipe(gulp.dest( paths.destCSS ))
 });
@@ -167,5 +167,10 @@ gulp.task('task1', ['buildFiles', 'minify-css', 'copy-html', 'copy-assets-js', '
 
 
 ```
+
+### How to use
+
+> npm install
+> npm start
 
 
