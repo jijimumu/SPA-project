@@ -1,26 +1,23 @@
-### Explanation
+### 說明
 > Start a new project
 
-### Install node js
+### 安裝 node js
 > https://nodejs.org/
 
-### Update node js to latest version
+### 更新 node js 至最新版本
 > sudo npm install npm -g
 
-### Initiate npm
+### 初始化 npm
 > npm init
 
-### Install gulp
-> npm install -g gulp
-
-### Install gulp and add dependency
+### 安裝 gulp 並新增 dependency
 > npm install --save-dev gulp
 —save-dev 將dependency寫入package.json
 
-### Install other packages
+### 安裝其他套件
 > npm install --save-dev browserify vinyl-source-stream gulp-minify-css gulp-notify fs gulp-uglify reactify gulp-jasmine gulp-less path
 
-### Add script to package.json for starting gulp
+### 新增 script 至 package.json 啟動 starting gulp
 
 ```js
 
@@ -34,12 +31,12 @@
 
 ```js
 
-var gulp = require('gulp');
-var browserify = require('browserify');
-var source = require('vinyl-source-stream');
-var minifyCSS = require('gulp-minify-css');
-var notify = require('gulp-notify');
-var fs = require('fs');
+var gulp = require('gulp'); 
+var browserify = require('browserify'); 
+var source = require('vinyl-source-stream'); //重新命名用
+var minifyCSS = require('gulp-minify-css'); //壓縮css
+var notify = require('gulp-notify'); //log用
+var fs = require('fs'); 
 var uglify = require('gulp-uglify');
 var reactify = require('reactify');
 var less = require('gulp-less');
