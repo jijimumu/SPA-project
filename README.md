@@ -167,6 +167,10 @@ gulp.task('task1', ['buildFiles', 'minify-css', 'copy-html', 'copy-assets-js', '
 
 ### How to use
 
+> git clone https://github.com/jijimumu/SPA-project.git
+
+> 進入 SPA-project 資料夾
+
 > npm install
 
 > npm start
