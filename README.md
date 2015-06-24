@@ -177,10 +177,12 @@ gulp.task('task1', ['buildFiles', 'minify-css', 'copy-html', 'copy-assets-js', '
 
 
 ### git 排除 資料夾
-新增.gitignore 檔案至檔案資料夾
-> /.idea/
-  /build/
-  /node_modules/
-  /.gitignore
+
+新增.gitignore 檔案至檔案資料夾並加入
+
+ - /.idea/
+ - /build/
+ - /node_modules/
+ - /.gitignore
 
 
